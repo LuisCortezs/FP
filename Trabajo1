@@ -1,0 +1,21 @@
+// Trabajo1.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
+//Bibliotecas
+#include <iostream>
+
+using namespace std; //evita poner std en cada instruccion 
+int main()
+{
+    int numeroEntero=463;
+    cout << "Entero: " << numeroEntero << endl;
+    short int numeroCorto = 32111;
+    cout << "Entero corto:" << numeroCorto << endl;
+    long long numeroLargo = 5578794645L;
+    cout << "Entero Largo:" << numeroLargo << endl;
+    unsigned numeroSinSigno = 3243533;
+    cout << "Entero sin signo: " << numeroSinSigno << endl;
+    unsigned short int numeroCortoSinSigno = 29525;
+    cout << "Entero corto sin signo: " << numeroCortoSinSigno << endl;
+    unsigned long long numeroLargoSinSigno = 29529969695;
+    cout << "Entero largo sin signo: " << numeroLargoSinSigno << endl;
+
