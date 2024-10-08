@@ -1,0 +1,85 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+#include<iomanip>
+#include <algorithm>
+using namespace std;
+int main()
+
+{
+    //1. numero entero
+
+    int numeroMaterias = 6;
+    cout << "numero de materias cursadas: "<< numeroMaterias << endl;
+
+    //2. valor float
+
+    float pi = 3.1416;
+    cout << "el valor de PI: " << pi << endl;
+
+    //3. bouble double 
+    // no es posible declarar double double
+
+    double double = 9.81;
+
+    //4. char letra
+
+    char letra = 'AB';
+    cout << "Letras: " << letra << endl;
+
+    //5. bool
+
+    boll esVerdad = "true";
+    cout << "El valor es: " << esVerdad << endl;
+
+    //6. int
+
+    int numero = 10.5;
+    cout << "el numero es: " << numero << endl;
+
+    //7. string
+    // no se puede declarar con comillas simples
+    string nombre = 'Juan';
+
+    //8. const int
+
+    const int PI = 3.14;
+    cout << "el valor de pi es: " << PI << endl;
+
+    //9. int
+    // no se puede decrarar una suma con un solo valor
+
+    int suma = 5 + ;
+
+    //10. int
+
+    int numero;
+    numero = 10;
+    cout << "el valor es: " << numero << endl;
+
+    //11. int
+    // no se puede declarar texto cuando se usa int
+
+    int numero = "diez";
+
+    //12. float
+    // no se puede declarar un valor con una coma
+
+    float altura = 1,75;
+
+    //13. char
+    // no se puede declarar un texto por que es doble comilla
+
+    char inicial = "J";
+
+    //14. 
+       
+    
+
+
+
+
+
+
+
+}
