@@ -1,0 +1,130 @@
+#include <iostream>
+#include<string>
+#include<iomanip>
+using namespace std; 
+
+int main()
+{
+	//Enteros
+	int a = 10;
+	int b = 20;
+	int c;
+
+	//Flotantes
+	float x = 15.5;
+	float y = 5.25;
+	float z;
+
+	// Adicion
+	c = a + b;
+	z = x + y;
+	cout << "Operacion adicion es: " << c << endl;
+	cout << "Operacion adicion es : " << z << endl;
+
+	//Subtraccion 
+	c = a - b;
+	z = x - y;
+	cout << "Operacion subtraccion es: " << c << endl;
+	cout << "Operacion subtraccion es : " << z << endl;
+
+	//Multiplicacion 
+	c = a * b;
+	z = x * y;
+	cout << "Operacion multiplicacion es: " << c << endl;
+	cout << "Operacion multiplicacion es : " << z << endl;
+
+	//Division
+	c = a / b;
+	z = x / y;
+	cout << "Operacion divicion es: " << c << endl;
+	cout << "Operacion divicion es : " << z << endl;
+
+	//Residuo
+	c = a % b;
+	cout << "Operacion residuo es: " << c << endl;
+
+	//Operaciones mixtas
+	z = a + x;
+	cout << "Operacion mixtas es : " << z << endl;
+	z = b - y;
+	cout << "Operacion mixtas es : " << z << endl;
+	z = a * y;
+	cout << "Operacion mixtas es : " << z << endl;
+	z = b / y;
+	cout << "Operacion mixtas es : " << z << endl;
+	z = (a + b) * x / y;
+	cout << "Operacion es : " << z << endl;
+
+	// Multiplicacion con flotantes 
+	z = x + 10, 3;
+	cout << "Operacion es : " << z << endl;
+	z = y * 2, 5;
+	cout << "Operacion es : " << z << endl;
+	z = x / 2, 0;
+	cout << "Operacion es : " << z << endl;
+	z = y - 3, 2;
+	cout << "Operacion es : " << z << endl;
+
+	// Combinacion de numeros enteros 
+	z = a + x - b / 2.0 + y * 1.5;
+	cout << "Operacion es : " << z << endl;
+
+	// Combinaciones más complejas 
+	z = (a + x) * (b - y) / (a * y);
+	cout << "Operacion es : " << z << endl;
+
+	// Operaciones aritmeticas de tipo mixto
+	double d = 7.4;
+	z = a + d;
+	cout << "Operacion es : " << z << endl;
+	z = b - d;
+	cout << "Operacion es : " << z << endl;
+	z = d * y;
+	cout << "Operacion es : " << z << endl;
+	z = d / x;
+	cout << "Operacion es : " << z << endl;
+
+	// Numeros negativos
+	int negInt = -25;
+	float negFloat = -12.3;
+
+	c = a + negInt;
+	cout << "Operacion es : " << c << endl;
+	c = b + negFloat;
+	cout << "Operacion es : " << c << endl;
+	z = negFloat - y;
+	cout << "Operacion es : " << z << endl;
+	z = negInt * b;
+	cout << "Operacion es : " << z << endl;
+
+	cout << fixed;
+	cout << setprecision(5);
+
+	// double w
+	double w;
+	w = (1.0 / 3) * 3.0;
+	cout << "Operacion es : " << w << endl;
+
+	// Operaciones Unitarias
+	a++;
+	cout << "Operacion es : " << a << endl;
+	b--;
+	cout << "Operacion es : " << b << endl;
+	x += 2.5;
+	cout << "Operacion es : " << x << endl;
+	y -= 1.4;
+	cout << "Operacion es : " << y << endl;
+
+	//Comparaciones 
+	cout << boolalpha;
+	cout << (a > b) << endl;
+	cout << (a < b) << endl;
+	cout << (a >= b) << endl;
+	cout << (a <= b) << endl;
+	cout << (a != b) << endl;
+	cout << (a == b) << endl;
+
+
+
+	
+}
