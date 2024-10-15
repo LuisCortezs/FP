@@ -1,0 +1,108 @@
+#include <iostream>
+#include <limits>
+#include <iomanip>
+#include <locale>
+using namespace std;
+
+int main()
+{
+    cout << boolalpha;
+    bool bb = true;
+    cout << bb << endl;
+
+    //Operadores comparaciones
+    //Enteros
+    int a = 10;
+    int b = 20;
+    int c;
+
+    //Flotantes 
+    float x = 15.5;
+    float y = 5.2;
+    float z;
+
+    // Es para imprimir true en lugar de 1 y false en lugar 0
+    cout << boolalpha;
+
+    // Igualdad
+
+    cout << "(a == b) "
+        << (a == b) << endl;
+    cout << "(x == y) " 
+        << (x == y) << endl;
+
+    //Desigualdad
+
+    cout << (a != b) << endl;
+    cout << (x != y) << endl;
+
+    //Mayor que
+
+    cout << (a > b) << endl;
+    cout << (x > y) << endl;
+
+    //Menor que
+
+    cout << (a < b) << endl;
+    cout << (x < y) << endl;
+
+    //Menor igual que
+
+    cout << (a <= b) << endl;
+    cout << (x <= y) << endl;
+
+    //Mayor igual que
+
+    cout << (a >= b) << endl;
+    cout << (x >= y) << endl;
+
+    //Mixtos
+
+    cout << (a > -b) << endl;
+    cout << (x < -y) << endl;
+
+    //Valores Mixtos
+
+    cout << (a < -b) << endl;
+    cout << (x > -y) << endl;
+
+    //Valores Mixtos
+
+    cout << ((a < b) and (x > y)) << endl;
+    cout << ((a == 10) or (x == 5.2)) << endl;
+
+    //Comparaciones Animadas
+
+    cout << (a > b - 10) << endl;
+    cout << (x <= y - 10.3) << endl;
+
+    //Comparaciones con constantes
+
+    cout << (a == 10) << endl;
+    cout << (x == 5.2) << endl;
+
+    //Comparaciones Aritmeticas
+
+    cout << ((a + b ) < (x * y)) << endl;
+    cout << ((b-a) >= (x/y)) << endl;
+
+    //Comparaciones con resultados positivos y negativos
+
+    cout << (-a < b) << endl;
+    cout << ((-x) > y) << endl;
+
+
+    //Comparaciones Aritmeticas y comparacion 
+
+    cout << ((a * b) > (x - y )) << endl;
+    cout << ((b/a) <= (x + y )) << endl;
+
+    //Comparaciones encadenadas
+
+    cout << ( a < b and b < x ) << endl;
+    cout << (y > x and x > a)  << endl;
+
+    //Comparaciones comparacion de modulos 
+
+    cout << ((b % a) == 0) << endl;
+    
