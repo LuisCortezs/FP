@@ -1,0 +1,19 @@
+El sudoku es un juego de lógica que se juega en una matriz de 9x9, lo que significa que tiene 81 casillas en total.
+
+El tablero de ajedrez es una cuadrícula de 8x8, lo que da un total de 64 casillas.
+
+HTML y RGB son dos formas de representar colores en la web y en la programación, pero funcionan de manera ligeramente diferente:
+
+HTML (Hexadecimal): Los colores se representan con un código hexadecimal compuesto por seis dígitos, que van desde #000000 (negro) hasta #FFFFFF (blanco).
+RGB: Los colores se definen con tres números que representan las intensidades de rojo, verde y azul, cada uno variando de 0 a 255. Por ejemplo, (0, 0, 0) es negro y (255, 255, 255) es blanco.
+Ambos sistemas pueden representar los mismos colores, solo que en un formato diferente.
+
+Código del color azul medianoche
+HTML: #191970
+RGB: rgb(25, 25, 112)
+
+Suma y Multiplicación de Matrices
+
+La suma de matrices se realiza sumando los elementos correspondientes de dos matrices del mismo tamaño. Si tenemos dos matrices A y B, ambas de dimensión 2x2:
+La multiplicación de matrices se realiza utilizando el producto punto de las filas de la primera matriz con las columnas de la segunda matriz. Si tenemos dos matrices A y B, ambas de dimensión 2x2:
+El producto A × B es una nueva matriz C con dimensiones 2x2. Los elementos de la matriz resultante C son:
